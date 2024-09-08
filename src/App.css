@@ -6,11 +6,22 @@
 .knappdiv {
   text-align: center;
   border: 1px solid black;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
+img {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.typer {
+}
 
 .App {
   display: flex;
