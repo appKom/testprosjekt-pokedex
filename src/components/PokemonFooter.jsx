@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/PokemonFooter.css';
 
 export function PokemonFooter(){
     return(
