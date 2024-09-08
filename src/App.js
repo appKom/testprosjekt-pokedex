@@ -4,6 +4,7 @@ import Knapp from './Knapp';
 import { useEffect } from 'react';
 import Kult from './Kult';
 import { useState } from 'react';
+import { PokemonFooter } from './components/PokemonFooter';
 
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
       {
         pokemon && pokemon.map(p => <Knapp tittel={p.name} url={p.url} paragraf={"eofekoffekokofe"}/>)
       }
-     
+      <PokemonFooter/>
     </div>
     
   );
