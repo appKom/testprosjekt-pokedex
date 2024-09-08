@@ -1,0 +1,14 @@
+div {
+    border-top-color: palevioletred;
+    border-top-style: solid;
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+    background-color: pink;
+}
+
+h1{
+    text-align: center;
+}
